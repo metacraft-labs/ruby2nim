@@ -2,7 +2,7 @@
 
 A WIP tool for porting Ruby code to Nim
 
-Based on [languist]
+Based on [languist](https://github.com/metacraft-labs/languist)
 
 ## how to use
 
