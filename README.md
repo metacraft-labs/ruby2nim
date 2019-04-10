@@ -1,13 +1,14 @@
-# rb2nim
+# ruby2nim
 
-A tool for porting Ruby code to Nim
+A WIP tool for porting Ruby code to Nim
 
 Based on [languist]
 
 ## how to use
 
 ```bash
-./rb2nim <filename>.rb
+# build with nim c ruby2nim.nim
+./ruby2nim <filename>.rb
 ```
 
 generates `<filename>.nim`
@@ -32,12 +33,14 @@ Your config might look like
 If you want to trace a bigger project, you can pass 
 
 ```bash
-rb2nim <filename_pattern> <target_folder> <command>
+ruby2nim <filename_pattern> <target_folder> <command>
 ```
 
 where command can be e.g. a bash file invoking.
 
 This is useful because often one want to translate only a set of files matching a pattern or to tweak something.
+
+For now please open an issue for problems: this is not yet fully stable
 
 ## setup
 
